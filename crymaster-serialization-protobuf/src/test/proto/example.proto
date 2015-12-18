@@ -1,0 +1,7 @@
+package io.crymaster.serialization.protobuf;
+
+option java_outer_classname = "ExampleProtocol";
+
+message Example {
+	optional string text = 1;
+}
